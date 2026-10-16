@@ -1,0 +1,94 @@
+name: "Project inquiry / 맞춤 제작 문의"
+description: "Public, non-sensitive scope request for browser tools, bilingual invoices, or Playwright QA."
+title: "[Project Inquiry] "
+labels: ["customer-inquiry"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Public inquiry / 공개 문의
+        This issue is visible to anyone. **Never post passwords, wallet recovery phrases, API keys, identity documents, unpublished customer data, invoices, or private source code.**
+        Describe only general requirements and public or anonymized examples. A message is not an accepted paid order; no payments or deposits are taken in this issue.
+        한국어 문의를 환영합니다. 개인정보와 비밀번호는 입력하지 말아 주세요. 공개된 이슈이며 아직 계약이나 결제가 아닙니다.
+        Prefer privacy? Use the email contact shown at https://livastic-vm1-primary.github.io/paperpilot-tools/services.html .
+  - type: dropdown
+    id: service
+    attributes:
+      label: "Requested service / 서비스"
+      description: "Choose the closest match."
+      options:
+        - "Bilingual invoice or quote template (indicative US$99+)"
+        - "Offline browser tool or calculator (indicative US$249+)"
+        - "Playwright UI smoke QA on an authorized public/test URL (indicative US$149+)"
+        - "Other narrow web utility (request scope quote)"
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: "Preferred language / 언어"
+      options:
+        - "한국어"
+        - "English"
+        - "Both / 둘 다"
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: "Desired outcome / 원하는 결과"
+      description: "What task do you want solved? Use a general description without confidential details."
+      placeholder: "Example: I need a bilingual PDF-ready estimate for an independent design studio."
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: "Deliverables and acceptance / 납품물 및 검수 기준"
+      description: "Briefly describe files, outputs, devices, revisions and how to verify the result."
+      placeholder: "Example: English/Korean A4 HTML template, 3 sample line items, no server upload, tested print to PDF."
+    validations:
+      required: true
+  - type: dropdown
+    id: budget
+    attributes:
+      label: "Indicative budget range / 예상 예산"
+      description: "A budget preference, not a payment commitment or final price."
+      options:
+        - "Under US$100"
+        - "US$100–249"
+        - "US$250–499"
+        - "US$500–999"
+        - "US$1,000+"
+        - "Need help estimating / 협의 필요"
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: "Desired timeline / 희망 일정"
+      description: "Optional. Enter a date or 'flexible'."
+      placeholder: "Example: 2026-11-15 or flexible"
+  - type: input
+    id: public-link
+    attributes:
+      label: "Optional PUBLIC example URL / 공개 자료"
+      description: "Only owner-authorized public demos or redacted sample URLs, no credentials."
+      placeholder: "https://example.com/public-demo"
+  - type: dropdown
+    id: contact
+    attributes:
+      label: "How to discuss scope / 협의 방법"
+      description: "Do not include your email or other personal contact details in this public issue."
+      options:
+        - "Discuss in this public issue only"
+        - "I will send the seller a private email referring to this issue"
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-consent
+    attributes:
+      label: "Public issue privacy acknowledgment / 공개 게시 주의"
+      options:
+        - label: "I understand this is a public issue; I will not include private customer data, secrets, passwords, wallet keys, government IDs, or payment details. / 개인정보 및 비밀값을 게시하지 않겠습니다."
+          required: true
