@@ -55,6 +55,12 @@ These are real capabilities demonstrated by the published code. Prices are **bud
 | **Offline web utility for a small team** | **US$249+** | A narrow browser-only form/calculator/validation tool with documented outputs and reproducible tests. |
 | **Browser workflow QA** | **US$149+** | Reproducible Playwright smoke tests of an owner-authorized public demo or agreed test environment, plus concise findings and limitations. |
 
+### Real, reproducible QA sample (synthetic; no client)
+
+**[Three public Playwright workflows — source, QA report, JSON results and screenshots](examples/playwright-qa-proof/)**
+
+This independently rerunnable sample tests our own English/Korean calculator, Korean mobile KRW math and required privacy consent on the public contact form. The browser test performed **no form submission**. Three flows passed in Chrome 152 using Playwright-core 1.58.2; no JavaScript errors or outbound requests outside the owned site. **This is not a paid customer's QA engagement, proof of marketplace payout or an audit.**
+
 ### How to request a quote
 
 **[Send a project inquiry without logging in](https://livastic-vm1-primary.github.io/paperpilot-tools/contact.html)** — this owner's test request was delivered to the existing Gmail inbox after FormSubmit email activation. The form requests consent and forwards your contact email and general project scope via **third-party FormSubmit**, with no file uploads or payment. Please never enter passwords, private client records or wallet recovery phrases.

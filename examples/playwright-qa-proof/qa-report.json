@@ -1,0 +1,49 @@
+{
+  "observedUTC": "2026-10-16T18:11:41.080Z",
+  "sample": true,
+  "siteHost": "livastic-vm1-primary.github.io",
+  "provenance": "Owned publicly available demo only. No client, paid engagement, order, or customer data.",
+  "testedUsing": "Playwright-core 1.58.2 and Google Chrome 152.0.7977.75",
+  "pass": true,
+  "flowDetails": [
+    {
+      "id": "F1",
+      "name": "USD sample quote and Korean UI",
+      "status": "PASS",
+      "width": 1440,
+      "http": 200,
+      "overflow": 0,
+      "evidence": "evidence/01-usd-quote-desktop.png",
+      "observed": "Line item 200 USD × 4 => 800 USD, less 20% => 640 USD, plus 10% on discounted subtotal => 704 USD. Korean UI toggle works."
+    },
+    {
+      "id": "F2",
+      "name": "KRW example, mobile layout and safe text",
+      "status": "PASS",
+      "width": 390,
+      "http": 200,
+      "overflow": 0,
+      "evidence": "evidence/02-krw-mobile.png",
+      "observed": "700,000 KRW minus 35,000 KRW discount plus illustrative 66,500 KRW tax => 731,500 KRW. HTML-like user text stays text, never becomes DOM markup."
+    },
+    {
+      "id": "F3",
+      "name": "Service to inquiry CTA and consent",
+      "status": "PASS",
+      "width": 390,
+      "http": 200,
+      "overflow": 0,
+      "evidence": "evidence/03-consent-inquiry-mobile.png",
+      "observed": "Three service cards. Visible contact CTA reaches required empty form and mandatory third-party relay consent. No password/upload fields. Form NOT submitted."
+    }
+  ],
+  "uncaughtJsErrors": [],
+  "foreignNetworkRequests": [],
+  "limitations": [
+    "Not a security audit or regulatory compliance assessment.",
+    "No private/authenticated/customer systems exercised.",
+    "Contact form NOT submitted; email delivery not retested.",
+    "The money calculations are hypothetical, not tax advice.",
+    "No paid customer, settlement, deposit, or revenue is claimed."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "vm1-synthetic-playwright-qa-proof",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reproducible UI QA demonstration of VM1-owned public websites only; not a buyer engagement",
+  "scripts": {
+    "test": "node smoke.cjs"
+  },
+  "devDependencies": {
+    "playwright-core": "1.58.2"
+  },
+  "license": "MIT"
+}
