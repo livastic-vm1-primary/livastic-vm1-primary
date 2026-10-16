@@ -23,7 +23,7 @@ Projects are scoped and quoted individually. An initial conversation is free; th
 ### 📄 PaperPilot
 **Offline invoice & quote kit**
 
-[Live free quote calculator](https://livastic-vm1-primary.github.io/paperpilot-tools/#demo) · [Bilingual handoff guide](https://livastic-vm1-primary.github.io/paperpilot-tools/guide.html) · [Technical notes](https://dev.to/livasticvm1primary/seven-edge-cases-i-tested-in-an-offline-invoice-tool-javascript-pdf-security-3pl5)
+[Live free quote calculator](https://livastic-vm1-primary.github.io/paperpilot-tools/#demo) · [Bilingual handoff guide](https://livastic-vm1-primary.github.io/paperpilot-tools/guide.html) · [한국어 무료 견적 가이드·원화 계산기](https://livastic-vm1-primary.github.io/paperpilot-tools/freelance-estimate-ko.html) · [Technical notes](https://dev.to/livasticvm1primary/seven-edge-cases-i-tested-in-an-offline-invoice-tool-javascript-pdf-security-3pl5)
 
 A desktop-friendly bilingual (EN/KR) invoice/quotation tool. Sample math, local storage, JSON round-trip, CSV, printing and mobile UI have been tested.
 
