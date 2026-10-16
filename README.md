@@ -35,7 +35,7 @@ A desktop-friendly bilingual (EN/KR) invoice/quotation tool. Sample math, local 
 ### 🔍 ScopeLens
 **Freelance project-brief scope preflight**
 
-[Use the free app](https://livastic-vm1-primary.github.io/scope-lens/) · [Read the source](https://github.com/livastic-vm1-primary/scope-lens)
+[Use the free app](https://livastic-vm1-primary.github.io/scope-lens/) · [Read the source](https://github.com/livastic-vm1-primary/scope-lens) · [Model testing notes](https://dev.to/livasticvm1primary/why-i-kept-8-transparent-rules-after-testing-small-local-llms-3lam)
 
 Checks eight kinds of scope ambiguity in English/Korean, proposes clarification questions and exports Markdown notes. Optional local open-weight AI is experimental and automatically falls back to fixed questions if the output is unreliable.
 
