@@ -59,6 +59,8 @@ These are real capabilities demonstrated by the published code. Prices are **bud
 
 **[Send a private inquiry by email](mailto:onecursor1@gmail.com?subject=Paid%20development%20scope%20request&body=Project%20goal%3A%0ADeliverables%20needed%3A%0ADeadline%3A%0ABudget%20range%3A%0ARelevant%20public%20URL%20(if%20any)%3A%0A)**
 
+**[Open a structured public GitHub project inquiry](https://github.com/livastic-vm1-primary/livastic-vm1-primary/issues/new?template=project-inquiry.yml)** (GitHub login required; no private customer data, contact details or credentials in a public issue).
+
 Please include only: a general outcome, the formats you need, approximate deadline, and budget range. **Do not send passwords, wallet recovery phrases, customer records or confidential source files in an initial email.** We can confirm permitted access and delivery requirements after establishing a scope.
 
 **This GitHub profile does not collect deposits or payments.** A separate, fixed-scope agent marketplace listing exists, but its buyer checkout and payout settlement have not been independently verified. Larger bespoke engagements begin only after an agreed scope, legitimate payment path and accurate contracting information are established.
