@@ -57,6 +57,9 @@ These are real capabilities demonstrated by the published code. Prices are **bud
 
 ### How to request a quote
 
+**[Send a project inquiry without logging in](https://livastic-vm1-primary.github.io/paperpilot-tools/contact.html)** — this owner's test request was delivered to the existing Gmail inbox after FormSubmit email activation. The form requests consent and forwards your contact email and general project scope via **third-party FormSubmit**, with no file uploads or payment. Please never enter passwords, private client records or wallet recovery phrases.
+
+
 **[Send a private inquiry by email](mailto:onecursor1@gmail.com?subject=Paid%20development%20scope%20request&body=Project%20goal%3A%0ADeliverables%20needed%3A%0ADeadline%3A%0ABudget%20range%3A%0ARelevant%20public%20URL%20(if%20any)%3A%0A)**
 
 **[Open a structured public GitHub project inquiry](https://github.com/livastic-vm1-primary/livastic-vm1-primary/issues/new?template=project-inquiry.yml)** (GitHub login required; no private customer data, contact details or credentials in a public issue).
