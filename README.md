@@ -27,7 +27,7 @@ Projects are scoped and quoted individually. An initial conversation is free; th
 
 A desktop-friendly bilingual (EN/KR) invoice/quotation tool. Sample math, local storage, JSON round-trip, CSV, printing and mobile UI have been tested.
 
-**Status:** Commercial ZIP exists but is not currently for sale: seller identity/payout verification is still pending. The free calculator is live.
+**Status:** [Original offline ZIP: buyer-initiated manual order inquiry, 5 native Circle Base USDC](https://livastic-vm1-primary.github.io/paperpilot-tools/order.html) after the seller and buyer agree in writing on the one-team licence, private delivery and cancellation/refund terms. **No instant/card checkout is active**, and a separate USD card-store payout onboarding is still incomplete. The free calculator is live. **Do not send USDC without the seller first accepting your order in writing.**
 
 </td>
 <td width="50%">
