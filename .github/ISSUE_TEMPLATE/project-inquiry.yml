@@ -1,5 +1,5 @@
 name: "Project inquiry / 맞춤 제작 문의"
-description: "Public, non-sensitive scope request for browser tools, bilingual invoices, or Playwright QA."
+description: "Public, non-sensitive scope request for CSV/Koinly/USDC evidence review, browser tools, bilingual invoices, or Playwright QA."
 title: "[Project Inquiry] "
 labels: ["customer-inquiry"]
 body:
@@ -10,6 +10,7 @@ body:
         This issue is visible to anyone. **Never post passwords, wallet recovery phrases, API keys, identity documents, unpublished customer data, invoices, or private source code.**
         Describe only general requirements and public or anonymized examples. A message is not an accepted paid order; no payments or deposits are taken in this issue.
         한국어 문의를 환영합니다. 개인정보와 비밀번호는 입력하지 말아 주세요. 공개된 이슈이며 아직 계약이나 결제가 아닙니다.
+        Prefer privacy? Use the direct email link on https://github.com/livastic-vm1-primary/livastic-vm1-primary without including attachments or private transaction records. A submitted issue is not a funded order; never send funds, tax records, wallet addresses or transaction history into public issues.
         Prefer privacy? Use the email contact shown at https://livastic-vm1-primary.github.io/paperpilot-tools/services.html .
   - type: dropdown
     id: service
@@ -17,6 +18,8 @@ body:
       label: "Requested service / 서비스"
       description: "Choose the closest match."
       options:
+        - "Crypto exchange CSV / Koinly header mapping (indicative US$49 proposed pilot)"
+        - "Base native Circle USDC invoice / Transfer event exceptions (indicative US$49 proposed pilot)"
         - "Bilingual invoice or quote template (indicative US$99+)"
         - "Offline browser tool or calculator (indicative US$249+)"
         - "Playwright UI smoke QA on an authorized public/test URL (indicative US$149+)"

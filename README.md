@@ -14,6 +14,22 @@ Projects are scoped and quoted individually. An initial conversation is free; th
 
 </details>
 
+## Can I help with a real crypto CSV or USDC payment-reconciliation problem?
+
+**Original free, locally tested software — no account, wallet, server upload or payment to try it:**
+
+- [Unsupported exchange CSV → Koinly Simple / Trades / Universal **manual column mapper**](https://livastic-vm1-primary.github.io/paperpilot-tools/koinly-column-mapper.html) — map your original columns explicitly, preserve source records, flag unsafe missing inputs. An independent, same-owner [VM3 Koinly format preflight](https://livastic-vm3-primary-tmp-260920.github.io/crypto-csv-rescue/koinly-preflight/) can inspect the candidate output. Neither tool connects to Koinly or certifies tax correctness.
+- [Base Circle USDC invoice ↔ claimed Transfer CSV **exception review**](https://livastic-vm1-primary.github.io/paperpilot-tools/usdc-invoice-reconcile.html) — review *unverified* invoice matches, duplicate event identities, wrong chain/token/recipient and partial payments without blockchain signing. A CSV match is **not** evidence of settled onchain payment.
+- [Crypto CSV Rescue — synthetic duplicate/missing acquisition examples](https://livastic-vm1-primary.github.io/paperpilot-tools/crypto-csv-rescue.html) — free fictional examples for reasoning about exchange export problems, not cost-basis or legal/tax advice.
+
+**Optional small manual pilot:** If your authorized real export cannot be mapped or your Base USDC invoice event evidence is ambiguous, I can discuss an individualized, bounded review of **up to 50 redacted, owner-authorized records**. **US$49 is a proposed starting budget for one narrow pilot, not a confirmed market price, checkout, client contract or existing customer order.** We would agree in writing on precise deliverables, safe data handling, legitimate payer/payee, refund, acceptance and exact Base-native Circle USDC payment terms *before* any funds are requested. This profile never takes a deposit.
+
+**[Ask about a CSV or Base USDC pilot with your own email app (draft only)](mailto:onecursor1@gmail.com?subject=Crypto%20CSV%20or%20Base%20USDC%20-%20proposed%20pilot%20scope%20request&body=Problem%20type%20%28CSV%20Koinly%20format%20%2F%20Base%20USDC%20invoice%20exception%29%3A%0AExporter%20or%20network%20%28public%20name%20only%29%3A%0AColumn%20names%20or%20general%20error%20class%20%28NO%20private%20transactions%29%3A%0AExpected%20scope%20and%20deliverable%20%28up%20to%2050%20sanitized%20rows%29%3A%0AProposed%20budget%20and%20deadline%3A%0APlease%20reply%20with%20written%20scope%20and%20privacy%2Fpayment%20terms.%20No%20payment%20or%20purchase%20is%20made%20by%20sending%20this%20enquiry.)** — this opens an unsent message draft; the visitor chooses whether to send. Or use the separate [public GitHub scope form](https://github.com/livastic-vm1-primary/livastic-vm1-primary/issues/new?template=project-inquiry.yml) without any private transaction, contact, login or identity data.
+
+*This is original AI-assisted source from **one** human-beneficial-owner developer group (VM1/VM2/VM3/VM5), not affiliated with Koinly, Circle or a paid client's endorsement. Actual paying buyers for these new crypto CSV/USDC pilots: **0 confirmed**. Source code and synthetic tests, not fabricated customer reviews, are the evidence.*
+
+---
+
 ## Working tools — try the demos
 
 <table>
@@ -63,7 +79,7 @@ This independently rerunnable sample tests our own English/Korean calculator, Ko
 
 ### How to request a quote
 
-**[Send a project inquiry without logging in](https://livastic-vm1-primary.github.io/paperpilot-tools/contact.html)** — this owner's test request was delivered to the existing Gmail inbox after FormSubmit email activation. The form requests consent and forwards your contact email and general project scope via **third-party FormSubmit**, with no file uploads or payment. Please never enter passwords, private client records or wallet recovery phrases.
+**[Optional third-party FormSubmit contact form](https://livastic-vm1-primary.github.io/paperpilot-tools/contact.html)** — this separately requests explicit consent and may show an external anti-spam challenge; in a later owner-only synthetic QA attempt, **delivery could not be verified**, so do not assume completion from a click. No file uploads or payment. The **direct customer-controlled email draft above** avoids depending on that optional provider. Please never enter passwords, private client records or wallet recovery phrases.
 
 
 **[Send a private inquiry by email](mailto:onecursor1@gmail.com?subject=Paid%20development%20scope%20request&body=Project%20goal%3A%0ADeliverables%20needed%3A%0ADeadline%3A%0ABudget%20range%3A%0ARelevant%20public%20URL%20(if%20any)%3A%0A)**
