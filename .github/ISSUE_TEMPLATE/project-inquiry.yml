@@ -18,6 +18,7 @@ body:
       label: "Requested service / 서비스"
       description: "Choose the closest match."
       options:
+        - "Small Koinly CSV mini-review (proposed 5 native Base Circle USDC, up to 10 sanitized rows)"
         - "Crypto exchange CSV / Koinly header mapping (indicative US$49 proposed pilot)"
         - "Base native Circle USDC invoice / Transfer event exceptions (indicative US$49 proposed pilot)"
         - "Bilingual invoice or quote template (indicative US$99+)"

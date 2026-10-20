@@ -47,3 +47,14 @@ test('public issue dropdown identifies two real crypto services and warns about 
   assert.ok(issue.includes('Never post passwords, wallet recovery phrases'));
   assert.ok(issue.includes('A submitted issue is not a funded order'));
 });
+
+test('firstparty HashN 5USDC mini-review actually linked and distinguished from broader 49-dollar hypothetical proposal',()=>{
+  const h='https://hashn.com/store/886ed287-aaca-434b-9f27-560a50bfbbb6/listings/koinly-csv-one-source-mapping-mini-review-5usdc.md';
+  assert.ok(doc.includes(h));
+  assert.match(doc,/up to 10 buyer-authorized anonymized rows/);
+  assert.match(doc,/zero external buyers, signed orders or final transfers are confirmed/);
+  assert.match(doc,/buyer must voluntarily contact the seller and approve/);
+  assert.match(doc,/entire free local converter remains free/);
+  assert.match(doc,/separate from the broader 49-dollar/);
+  assert.match(issue,/Small Koinly CSV mini-review \(proposed 5 native Base Circle USDC, up to 10 sanitized rows\)/);
+});
