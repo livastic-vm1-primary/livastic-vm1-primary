@@ -14,6 +14,16 @@ Projects are scoped and quoted individually. An initial conversation is free; th
 
 </details>
 
+## One independently paid, source-verifiable engineering contribution
+
+**Real sponsor work:** [Pursekeeper wallet-lock race fix, PR #94](https://github.com/pursekeeper/api/pull/94) was accepted and **merged by the independent maintainer** on October 20, 2026. The maintainer's public [payment ledger entry 441](https://pursekeeper.dev/log) and a separately inspected Nano mainnet send block show an **actual 5 XNO payment SEND** to the originally submitted Nano payee. This is not an unawarded bounty announcement or self-created customer testimonial.
+
+[**Read the complete bug reproduction, exact code changes, tests and chain proof →**](https://livastic-vm1-primary.github.io/case-studies/pursekeeper-nano-lock-bounty-5xno.html) — Node.js 24: 182 passing tests, 5 pre-existing environment skips; 32 of 32 repeated mocked concurrency runs passed. The Nano account had **5 XNO receivable but 0 XNO available** at independent verification; the owner has not claimed an onchain receive block or bank cashout. This Nano reward is a different asset and sponsor from the **historical 1 native Base Circle USDC** paid for a completed HashN task on October 17. Neither historical payment is a purchaser of the new CSV or Koinly mini-review offers.
+
+If you have a separate reproducible payment-client concurrency failure, we can discuss a narrow written test-and-fix scope **without sending wallet keys, client data, transaction signatures or private repositories first**. Quotes require independent agreement and do not guarantee an audit outcome.
+
+---
+
 ## Can I help with a real crypto CSV or USDC payment-reconciliation problem?
 
 **Original free, locally tested software — no account, wallet, server upload or payment to try it:**
@@ -109,4 +119,4 @@ I share these links as relevant open resources, not as paid endorsements or guar
 
 ---
 
-<sub>Integrity: Public working demos and source replace invented testimonials. No confirmed paying customer, commission, bounty award or settled revenue is represented by this README. All personal and payment verification must use truthful details supplied by the account owner.</sub>
+<sub>Integrity: Public working demos and source replace invented testimonials. Exactly one older genuine HashN task paid 1 native Base Circle USDC, and the independent Pursekeeper code bounty was merged and externally sent 5 Nano XNO (5 XNO receivable, 0 spendable when checked), as cited above. No paid buyer is confirmed for our newer Koinly/CSV/USDC products, no wallet receive or bank cashout is claimed, and the two assets must not be added as if identical. All personal and payment verification must use truthful details supplied by the account owner.</sub>

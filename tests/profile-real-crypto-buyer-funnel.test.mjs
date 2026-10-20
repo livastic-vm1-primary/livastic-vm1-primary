@@ -58,3 +58,19 @@ test('firstparty HashN 5USDC mini-review actually linked and distinguished from 
   assert.match(doc,/separate from the broader 49-dollar/);
   assert.match(issue,/Small Koinly CSV mini-review \(proposed 5 native Base Circle USDC, up to 10 sanitized rows\)/);
 });
+
+test('profile publishes real independent third-party bounty instead of a fake testimony or unearned contract',()=>{
+ const caseURL='https://livastic-vm1-primary.github.io/case-studies/pursekeeper-nano-lock-bounty-5xno.html';
+ assert.ok(doc.includes(caseURL));
+ assert.ok(doc.includes('https://github.com/pursekeeper/api/pull/94'));
+ assert.ok(doc.includes('payment ledger entry 441'));
+ assert.match(doc,/actual 5 XNO payment SEND/);
+ assert.match(doc,/5 XNO receivable but 0 XNO available/);
+ assert.match(doc,/182 passing tests/);
+ assert.match(doc,/32 of 32 repeated mocked concurrency runs/);
+ assert.match(doc,/historical 1 native Base Circle USDC/);
+ assert.match(doc,/a different asset and sponsor/);
+ assert.match(doc,/No paid buyer is confirmed for our newer Koinly\/CSV\/USDC products/);
+ assert.match(doc,/no wallet receive or bank cashout is claimed/);
+ assert.doesNotMatch(doc,/No confirmed paying customer, commission, bounty award or settled revenue is represented by this README/);
+});
