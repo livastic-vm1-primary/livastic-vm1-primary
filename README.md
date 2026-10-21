@@ -14,6 +14,18 @@ Projects are scoped and quoted individually. An initial conversation is free; th
 
 </details>
 
+## Direct Base USDC recipient for individually agreed paid QA
+
+For **new, separately approved** fixed-scope engineering or QA work sold directly by this original `@livastic-vm1-primary` developer account, the one human operator has designated the **existing VM1 MetaMask Make Money Wallet 1** as the public payment recipient:
+
+- **Network:** Base mainnet, chain ID `8453`
+- **Asset:** native Circle USDC (contract `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`)
+- **Direct QA/engineering receipt address:** `0x4e3106520E40af30870caFE78da1B1e7110eD98E`
+
+This is **not** the `payTo` of the separate, pre-existing automated [VM5 x402 merchant service](https://vm5-openapi-x402.onrender.com/v1/docs), which publicly lists `0x6b01efA0705E91a7aca54271510bf9e594717f34` for **that original API's payments**. The merchant's original payment routing is **unchanged**; do not substitute the manual-services recipient for its outstanding API orders. The wallet recovery/control assertions are based on the human owner's statement, not an independent on-chain signer demonstration by this repository.
+
+These addresses serve **different scopes**. No payment, contract acceptance, identity certification or escrow is created by this README. Customers should pay only under a **separately agreed written scope**, using the agreed chain/token/recipient and the contract's acceptance and cancellation terms. In particular, a prospective QA job is **not an invoice** or proof of delivery until its customer accepts the authorized report.
+
 ## One independently paid, source-verifiable engineering contribution
 
 **Real sponsor work:** [Pursekeeper wallet-lock race fix, PR #94](https://github.com/pursekeeper/api/pull/94) was accepted and **merged by the independent maintainer** on October 20, 2026. The maintainer's public [payment ledger entry 441](https://pursekeeper.dev/log) and a separately inspected Nano mainnet send block show an **actual 5 XNO payment SEND** to the originally submitted Nano payee. This is not an unawarded bounty announcement or self-created customer testimonial.
