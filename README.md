@@ -26,6 +26,15 @@ This is **not** the `payTo` of the separate, pre-existing automated [VM5 x402 me
 
 These addresses serve **different scopes**. No payment, contract acceptance, identity certification or escrow is created by this README. Customers should pay only under a **separately agreed written scope**, using the agreed chain/token/recipient and the contract's acceptance and cancellation terms. In particular, a prospective QA job is **not an invoice** or proof of delivery until its customer accepts the authorized report.
 
+
+## Verified paid x402 data API — one independent settlement
+
+A separate, owner-operated **[TapeOut X Layer CPU0 On-chain Integrity Report](https://payapi.market/api/tapeout-x-layer-cpu0-on-chain-integrity-report)** is listed on PayAPI Market. The [live x402 v2 GET endpoint](https://vm5-openapi-x402.onrender.com/v1/tapeout-cpu0-report) quotes **0.005000 native Circle USDC per authorized call on Base mainnet (chain ID 8453)**, payable directly to the owner's existing VM1 MetaMask address 0x4e3106520E40af30870caFE78da1B1e7110eD98E.
+
+**Independent real-payment evidence, 2026-10-23:** the marketplace operator reports one paid verification GET, and its public listing links to the [independently finalized 0.005000 USDC ERC-20 Transfer](https://basescan.org/tx/0xd0b5256095716d295ce6e7eaee6b5ad2ba47a096422bd3949c718f9d42c0024b) (Base block 52974761, log index 702). This is **one marketplace-operated test purchase**, already in the original wallet balance, not evidence of organic repeat clients, a prediction of future revenue or verified net profit after hosting/taxes. This NEW route has the original VM1 payee; the older, separate VM5 merchant API referenced above retains its original different payTo and has NOT been rebound.
+
+The listing and proof are free to inspect. Calling the paid endpoint requires a buyer-authorized x402 client; no wallet keys, deposits or manual payments are requested just to verify the evidence.
+
 ## One independently paid, source-verifiable engineering contribution
 
 **Real sponsor work:** [Pursekeeper wallet-lock race fix, PR #94](https://github.com/pursekeeper/api/pull/94) was accepted and **merged by the independent maintainer** on October 20, 2026. The maintainer's public [payment ledger entry 441](https://pursekeeper.dev/log) and a separately inspected Nano mainnet send block show an **actual 5 XNO payment SEND** to the originally submitted Nano payee. This is not an unawarded bounty announcement or self-created customer testimonial.
