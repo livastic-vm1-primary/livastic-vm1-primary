@@ -33,6 +33,8 @@ A separate, owner-operated **[TapeOut X Layer CPU0 On-chain Integrity Report](ht
 
 **Independent real-payment evidence, 2026-10-23:** the marketplace operator reports one paid verification GET, and its public listing links to the [independently finalized 0.005000 USDC ERC-20 Transfer](https://basescan.org/tx/0xd0b5256095716d295ce6e7eaee6b5ad2ba47a096422bd3949c718f9d42c0024b) (Base block 52974761, log index 702). This is **one marketplace-operated test purchase**, already in the original wallet balance, not evidence of organic repeat clients, a prediction of future revenue or verified net profit after hosting/taxes. This NEW route has the original VM1 payee; the older, separate VM5 merchant API referenced above retains its original different payTo and has NOT been rebound.
 
+**Additional agent discovery:** This exact paid GET route is [indexed on x402scan](https://www.x402scan.com/server/7674c5b5-4645-4f5a-9b08-d7b8af61fd21) with its genuine 0.005 native Circle Base USDC quote and the original VM1 recipient. The directory entry is indexed, but x402scan has not separately marked it as settlement-verified. The one actual payment above was the separate PayAPI Market operator validation; directory registration is not an additional sale.
+
 The listing and proof are free to inspect. Calling the paid endpoint requires a buyer-authorized x402 client; no wallet keys, deposits or manual payments are requested just to verify the evidence.
 
 ## One independently paid, source-verifiable engineering contribution
